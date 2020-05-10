@@ -28,7 +28,7 @@ def main():
   pos.pose.position.z = height
   prev_state = current_State
 
-  for i in range(50):
+  for _i in range(50):
     pos_pub.publish(pos)
     r.sleep()
 
